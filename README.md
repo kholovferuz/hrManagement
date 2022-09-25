@@ -1,36 +1,35 @@
-# hrmanagement
-   About the system
-This system is a service platform for HR management. Login via username and password.
+# hr management
 
-    Company
-There will be one director of the company.
-The director adds managers.
-When you add managers, a link will be sent to their email address.
-There should be a position called HR_MANAGER among the department heads.
-The manager in this position adds other employees to the system. When employees register, a link will be sent to their email address as well.
+   Sul sistema
+Questo sistema è una piattaforma di servizi per la gestione delle risorse umane. Accedi tramite username e password.
 
-    Staff
-Employees enter a password on the system via a link to their email.
-The email address of the employees was considered a unique username.
-Staff will be provided with turnstiles.
+    Azienda
+Ci sarà un direttore della società.
+Il regista aggiunge manager.
+Quando aggiungi gestori, verrà inviato un collegamento al loro indirizzo email.
+Ci dovrebbe essere una posizione chiamata HR_MANAGER tra i capi dipartimento.
+Il manager in questa posizione aggiunge altri dipendenti al sistema. Quando i dipendenti si registrano, verrà inviato anche un collegamento al loro indirizzo e-mail.
 
-    Task
-The task is in three different states (new, in progress, completed)
-The director can assign tasks to managers and employees, and managers can only assign tasks to employees.
-For each task, enter the name of the task, a description of the task, the time when the task should be completed, and the employee is attached to this task.
-A message will be sent to the email address of the employee to whom the task is attached.
-However, these tasks should appear in the employee window of the system.
-Upon completion of the task, the employee will mark the completion of the task and send a message to the manager or director who assigned the task.
+    Personale
+I dipendenti inseriscono una password nel sistema tramite un collegamento alla loro e-mail.
+L'indirizzo email dei dipendenti è stato considerato un nome utente univoco.
+Al personale sarà fornita la tessera del dipendente.
 
-    Turniket
-A turnstile will be installed at the enterprise to determine the working hours of employees.
-The turnstile will have entrances and exits.
-Information on the time of entry or exit of the enterprise should be recorded on which side of the turnstile was scanned.
+    Compito
+L'attività è in tre stati diversi (nuovo, in corso, completato)
+Il direttore può assegnare compiti a manager e dipendenti e i manager possono assegnare compiti solo ai dipendenti.
+Per ogni attività, inserisci il nome dell'attività, una descrizione dell'attività, l'ora in cui l'attività deve essere completata e il dipendente è allegato a questa attività.
+Verrà inviato un messaggio all'indirizzo e-mail del dipendente a cui è allegata l'attività.
+Al completamento dell'attività, il dipendente segnerà il completamento dell'attività e invierà un messaggio al manager o al direttore che ha assegnato l'attività.
 
-    Management
-A list of employees is displayed for the Director and the HR_MANAGER manager.
-If you want to see information about each employee, you need to get information about the employee's arrival and departure at intervals and the tasks performed.
-Each employee is paid a certain monthly salary.
-Once the employee is paid, it is recorded in the system.
-It should be possible to see the salaries paid by the employee or by the month assigned.
-Management should be able to see whether employees are performing their duties on time or not.
+    Turniket (carta del dipendente)
+Una carta del dipendente verrà installata presso l'azienda per determinare l'orario di lavoro dei dipendenti.
+La tessera del dipendente avrà ingressi e uscite.
+Le informazioni sull'ora di ingresso o di uscita dall'impresa devono essere registrate su quale lato del tornello è stato scansionato.
+
+    Amministrazione
+Viene visualizzato un elenco di dipendenti per il Direttore e il manager HR_MANAGER.
+Se si desidera visualizzare informazioni su ciascun dipendente, è necessario ottenere informazioni sull'arrivo e la partenza del dipendente a intervalli e sulle attività svolte.
+Ogni dipendente riceve un determinato stipendio mensile.
+Una volta pagato, il dipendente viene registrato nel sistema.
+Dovrebbe essere possibile vedere gli stipendi pagati dal dipendente o per mese assegnato.
