@@ -40,7 +40,7 @@ public class StaffServiceImpl implements StaffService {
         this.turniketRepository = turniketRepository;
     }
 
-    // hr manager va director can see the list of all employees
+    // hr manager and director can see the list of all employees
     public Response getAllEmployees() {
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         User user = (User) authentication.getPrincipal();
