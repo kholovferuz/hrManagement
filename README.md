@@ -1,6 +1,6 @@
 # hr management
 
-   On the system
+
 This system is a service platform for human resource management. Log in with username and password.
 
      Company
