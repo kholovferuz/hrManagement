@@ -1,35 +1,35 @@
 # hr management
 
-   Sul sistema
-Questo sistema è una piattaforma di servizi per la gestione delle risorse umane. Accedi tramite username e password.
+   On the system
+This system is a service platform for human resource management. Log in with username and password.
 
-    Azienda
-Ci sarà un direttore della società.
-Il regista aggiunge manager.
-Quando aggiungi gestori, verrà inviato un collegamento al loro indirizzo email.
-Ci dovrebbe essere una posizione chiamata HR_MANAGER tra i capi dipartimento.
-Il manager in questa posizione aggiunge altri dipendenti al sistema. Quando i dipendenti si registrano, verrà inviato anche un collegamento al loro indirizzo e-mail.
+     Company
+There will be a director of the company.
+The director adds manager.
+When you add managers, a link will be sent to their email address.
+There should be a position called HR_MANAGER among department heads.
+The manager in this position adds more employees to the system. When employees register, a link will also be sent to their email address.
 
-    Personale
-I dipendenti inseriscono una password nel sistema tramite un collegamento alla loro e-mail.
-L'indirizzo email dei dipendenti è stato considerato un nome utente univoco.
-Al personale sarà fornita la tessera del dipendente.
+     Employees
+Employees enter a password into the system via a link to their email.
+Employee email address was treated as a unique username.
+Staff will be provided with an employee card.
 
-    Compito
-L'attività è in tre stati diversi (nuovo, in corso, completato)
-Il direttore può assegnare compiti a manager e dipendenti e i manager possono assegnare compiti solo ai dipendenti.
-Per ogni attività, inserisci il nome dell'attività, una descrizione dell'attività, l'ora in cui l'attività deve essere completata e il dipendente è allegato a questa attività.
-Verrà inviato un messaggio all'indirizzo e-mail del dipendente a cui è allegata l'attività.
-Al completamento dell'attività, il dipendente segnerà il completamento dell'attività e invierà un messaggio al manager o al direttore che ha assegnato l'attività.
+     Task
+The task is in three different states (new, in progress, completed)
+The director can assign tasks to managers and employees, and managers can assign tasks only to employees.
+For each task, enter the name of the task, a description of the task, the time by which the task must be completed, and the employee is attached to this task.
+A message will be sent to the employee's email address to which the task is attached.
+Upon completion of the task, the employee will mark the completion of the task and send a message to the manager or director who assigned the task.
 
-    Turniket (carta del dipendente)
-Una carta del dipendente verrà installata presso l'azienda per determinare l'orario di lavoro dei dipendenti.
-La tessera del dipendente avrà ingressi e uscite.
-Le informazioni sull'ora di ingresso o di uscita dall'impresa devono essere registrate su quale lato del tornello è stato scansionato.
+     Turniket (employee card)
+An employee card will be installed at the company to determine the working hours of employees.
+The employee card will have inputs and outputs.
+Information about the time of entry or exit from the enterprise must be recorded on which side of the turnstile it was scanned.
 
-    Amministrazione
-Viene visualizzato un elenco di dipendenti per il Direttore e il manager HR_MANAGER.
-Se si desidera visualizzare informazioni su ciascun dipendente, è necessario ottenere informazioni sull'arrivo e la partenza del dipendente a intervalli e sulle attività svolte.
-Ogni dipendente riceve un determinato stipendio mensile.
-Una volta pagato, il dipendente viene registrato nel sistema.
-Dovrebbe essere possibile vedere gli stipendi pagati dal dipendente o per mese assegnato.
+     Administration
+A list of employees for the Director and manager HR_MANAGER is displayed.
+If you want to view information about each employee, you need to get information about the employee's arrival and departure at intervals and the activities performed.
+Each employee receives a certain monthly salary.
+Once paid, the employee is registered in the system.
+You should be able to see salaries paid by employee or by assigned month.
